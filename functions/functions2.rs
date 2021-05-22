@@ -1,6 +1,4 @@
-// functions2.rs
-// Make me compile! Execute `rustlings hint functions2` for hints :)
-
+// Give the parameter in call_me function a data type
 
 fn main() {
     call_me(3);

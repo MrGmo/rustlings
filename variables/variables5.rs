@@ -1,5 +1,4 @@
-// variables5.rs
-// Make me compile! Execute the command `rustlings hint variables5` if you want a hint :)
+// Change the data types by changing the scope and re-declare the variable
 
 fn main() {
     let number = "3";

@@ -1,6 +1,4 @@
-// functions3.rs
-// Make me compile! Execute `rustlings hint functions3` for hints :)
-
+// Give call_function within fn main any integer
 
 fn main() {
     call_me(5);

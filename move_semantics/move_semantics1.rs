@@ -1,6 +1,4 @@
-// move_semantics1.rs
-// Make me compile! Execute `rustlings hint move_semantics1` for hints :)
-
+// Make vec1 mutable within your main function
 
 fn main() {
     let vec0 = Vec::new();

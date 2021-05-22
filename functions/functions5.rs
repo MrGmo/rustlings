@@ -1,6 +1,4 @@
-// functions5.rs
-// Make me compile! Execute `rustlings hint functions5` for hints :)
-
+// Remove semicolon after num * num, not needed for implicit return
 
 fn main() {
     let answer = square(3);

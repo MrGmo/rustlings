@@ -1,10 +1,6 @@
-// primitive_types2.rs
-// Fill in the rest of the line that has code missing!
-// No hints, there's no tricks, just get used to typing these :)
-
+// Set your_character = single quotes because it's a character not a string
 
 fn main() {
-    // Characters (`char`)
 
     let my_first_initial = 'C';
     if my_first_initial.is_alphabetic() {

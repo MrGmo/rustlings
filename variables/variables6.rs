@@ -1,5 +1,4 @@
-// variables6.rs
-// Make me compile! Execute the command `rustlings hint variables6` if you want a hint :)
+// Give NUMBER a data type
 
 const NUMBER: i32 = 3;
 fn main() {

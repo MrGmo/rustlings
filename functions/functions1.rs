@@ -1,5 +1,4 @@
-// functions1.rs
-// Make me compile! Execute `rustlings hint functions1` for hints :)
+// Declare call_me outside of the main function
 
 fn call_me(){}
 
