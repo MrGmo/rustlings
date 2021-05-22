@@ -1,1 +1,5 @@
-work in progress
+# rustlings
+
+Hi there!
+
+This repo is a work in progress!
