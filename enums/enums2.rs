@@ -1,6 +1,4 @@
-// enums2.rs
-// Make me compile! Execute `rustlings hint enums2` for hints!
-
+// Declare variants within enum message. Take them from main function.
 
 #[derive(Debug)]
 enum Message {

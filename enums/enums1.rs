@@ -1,6 +1,4 @@
-// enums1.rs
-// Make me compile! Execute `rustlings hint enums1` for hints!
-
+// Declare variant in body of enum 
 
 #[derive(Debug)]
 enum Message {

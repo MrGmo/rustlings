@@ -1,6 +1,4 @@
-// modules2.rs
-// Make me compile! Execute `rustlings hint modules2` for hints :)
-
+// Make use statements public
 
 mod delicious_snacks {
     pub use self::fruits::PEAR as fruit;

@@ -1,17 +1,4 @@
-// hashmap2.rs
-
-// A basket of fruits in the form of a hash map is given. The key
-// represents the name of the fruit and the value represents how many
-// of that particular fruit is in the basket. You have to put *MORE
-// THAN 11* fruits in the basket. Three types of fruits - Apple (4),
-// Mango (2) and Lychee (5) are already given in the basket. You are
-// not allowed to insert any more of these fruits!
-//
-// Make me pass the tests!
-//
-// Execute the command `rustlings hint hashmap2` if you need
-// hints.
-
+// Complete the basket entry for loop
 
 use std::collections::HashMap;
 

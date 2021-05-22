@@ -1,6 +1,4 @@
-// modules1.rs
-// Make me compile! Execute `rustlings hint modules1` for hints :)
-
+// Declare make_sausage as a public function so it's within scope. 
 
 mod sausage_factory {
     pub fn make_sausage() {

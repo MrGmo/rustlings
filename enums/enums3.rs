@@ -1,6 +1,4 @@
-// enums3.rs
-// Address all the TODOs to make the tests pass!
-
+// Fill in enum Message with variants and choose data types that match the structs. Also, finish the fn process function. 
 
 enum Message {
     ChangeColor(u8, u8, u8),

@@ -1,6 +1,4 @@
-// structs1.rs
-// Address all the TODOs to make the tests pass!
-
+// Initiate each of the structs
 
 struct ColorClassicStruct {
     name: String,

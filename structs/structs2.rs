@@ -1,5 +1,4 @@
-// structs2.rs
-// Address all the TODOs to make the tests pass!
+// Use the spread operator for Order object
 
 #[derive(Debug)]
 struct Order {
