@@ -1,15 +1,9 @@
-// AsRef and AsMut allow for cheap reference-to-reference conversions.
-// Read more about them at https://doc.rust-lang.org/std/convert/trait.AsRef.html
-// and https://doc.rust-lang.org/std/convert/trait.AsMut.html, respectively.
+//set the as_ref as a trait bound and find the bytes in a given argument
 
-// Obtain the number of bytes (not characters) in the given argument
-// Add the AsRef trait appropriately as a trait bound
 fn byte_counter<T: AsRef<str>>(arg: T) -> usize {
     arg.as_ref().as_bytes().len()
 }
 
-// Obtain the number of characters (not bytes) in the given argument
-// Add the AsRef trait appropriately as a trait bound
 fn char_counter<T: AsRef<str>>(arg: T) -> usize {
     arg.as_ref().chars().count()
 }

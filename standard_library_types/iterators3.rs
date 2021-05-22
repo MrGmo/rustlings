@@ -1,11 +1,4 @@
-// iterators3.rs
-// This is a bigger exercise than most of the others! You can do it!
-// Here is your mission, should you choose to accept it:
-// 1. Complete the divide function to get the first four tests to pass.
-// 2. Get the remaining tests to pass by completing the result_with_list and
-//    list_of_results functions.
-// Execute `rustlings hint iterators3` to get some hints!
-
+// Complete the divide function with an if/else statement and declare the function variables with a vector.
 
 #[derive(Debug, PartialEq, Eq)]
 pub enum DivisionError {

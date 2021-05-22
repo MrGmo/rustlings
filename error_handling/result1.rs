@@ -1,6 +1,4 @@
-// result1.rs
-// Make this test pass! Execute `rustlings hint result1` for hints :)
-
+// Add if/else if/ else statement to impl PositiveNonzeroInteger
 
 #[derive(PartialEq, Debug)]
 struct PositiveNonzeroInteger(u64);

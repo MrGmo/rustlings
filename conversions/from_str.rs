@@ -1,7 +1,5 @@
-// This does practically the same thing that TryFrom<&str> does.
-// Additionally, upon implementing FromStr, you can use the `parse` method
-// on strings to generate an object of the implementor type.
-// You can read more about it at https://doc.rust-lang.org/std/str/trait.FromStr.html
+// Parse the fromStr properly and extract what you need to complete the problem. 
+
 use std::str::FromStr;
 
 #[derive(Debug)]
@@ -10,15 +8,6 @@ struct Person {
     age: usize,
 }
 
-// Steps:
-// 1. If the length of the provided string is 0, then return an error
-// 2. Split the given string on the commas present in it
-// 3. Extract the first element from the split operation and use it as the name
-// 4. If the name is empty, then return an error
-// 5. Extract the other element from the split operation and parse it into a `usize` as the age
-//    with something like `"4".parse::<usize>()`.
-// If while parsing the age, something goes wrong, then return an error
-// Otherwise, then return a Result of a Person object
 impl FromStr for Person {
     type Err = String;
     fn from_str(s: &str) -> Result<Person, Self::Err> {

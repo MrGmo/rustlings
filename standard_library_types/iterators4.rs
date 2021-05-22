@@ -1,5 +1,4 @@
-// iterators4.rs
-
+// Iterate through a range and the fold
 
 pub fn factorial(num: u64) -> u64 {
     (1..=num).fold(1, |acc, v| acc * v)
