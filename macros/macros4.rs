@@ -1,6 +1,4 @@
-// macros4.rs
-// Make me compile! Execute `rustlings hint macros4` for hints :)
-
+// Add a semicolon after the macro. Just a syntax error. 
 
 macro_rules! my_macro {
     () => {

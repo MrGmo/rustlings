@@ -1,6 +1,4 @@
-// macros2.rs
-// Make me compile! Execute `rustlings hint macros2` for hints :)
-
+// Macros need to be defined before being used so switch the order. 
 
 macro_rules! my_macro {
     () => {

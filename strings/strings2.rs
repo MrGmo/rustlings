@@ -1,7 +1,4 @@
-// strings2.rs
-// Make me compile without changing the function signature!
-// Execute `rustlings hint strings2` for hints :)
-
+// Use the reference to word within fn main
 
 fn main() {
     let word = String::from("green"); // Try not changing this line :)

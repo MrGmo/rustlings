@@ -1,6 +1,4 @@
-// This powerful wrapper provides the ability to store a positive integer value.
-// Rewrite it using generics so that it supports wrapping ANY type.
-
+// Replace the i32 data type with a generic value type
 
 struct Wrapper <T> {
     value: T,

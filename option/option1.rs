@@ -1,7 +1,5 @@
-// option1.rs
-// Make me compile! Execute `rustlings hint option1` for hints
+// Add option values to ints and instantiate option values as well.
 
-// you can modify anything EXCEPT for this function's sig
 fn print_number(maybe_number: Option<u16>) {
     println!("printing: {}", maybe_number.unwrap());
 }

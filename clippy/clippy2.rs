@@ -1,5 +1,4 @@
-// clippy2.rs
-// Make me compile! Execute `rustlings hint clippy2` for hints :)
+// Write if let statement for Some(x)
 
 fn main() {
     let mut res = 42;

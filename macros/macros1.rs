@@ -1,7 +1,4 @@
-// macros1.rs
-// Make me compile! Execute `rustlings hint macros1` for hints :)
-
-// I AM NOT DONE
+// Calling a macro so don't forget the ! on my_macro
 
 macro_rules! my_macro {
     () => {

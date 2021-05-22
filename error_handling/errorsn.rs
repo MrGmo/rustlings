@@ -1,28 +1,9 @@
-// errorsn.rs
-// This is a bigger error exercise than the previous ones!
-// You can do it! :)
-//
-// Edit the `read_and_validate` function ONLY. Don't create any Errors
-// that do not already exist.
-//
-// So many things could go wrong!
-//
-// - Reading from stdin could produce an io::Error
-// - Parsing the input could produce a num::ParseIntError
-// - Validating the input could produce a CreationError (defined below)
-//
-// How can we lump these errors into one general error? That is, what
-// type goes where the question marks are, and how do we return
-// that type from the body of read_and_validate?
-//
-// Execute `rustlings hint errorsn` for hints :)
-
+// Specify the type in the result and use dynamic error handling
 
 use std::error;
 use std::fmt;
 use std::io;
 
-// PositiveNonzeroInteger is a struct defined below the tests.
 fn read_and_validate(b: &mut dyn io::BufRead) -> Result<PositiveNonzeroInteger, Box<dyn error::Error>> {
     let mut line = String::new();
     b.read_line(&mut line)?;
@@ -31,11 +12,6 @@ fn read_and_validate(b: &mut dyn io::BufRead) -> Result<PositiveNonzeroInteger, 
     Ok(answer)
 }
 
-//
-// Nothing below this needs to be modified
-//
-
-// This is a test helper function that turns a &str into a BufReader.
 fn test_with_str(s: &str) -> Result<PositiveNonzeroInteger, Box<dyn error::Error>> {
     let mut b = io::BufReader::new(s.as_bytes());
     read_and_validate(&mut b)

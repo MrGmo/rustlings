@@ -1,7 +1,4 @@
-// tests2.rs
-// This test has a problem with it -- make the test compile! Make the test
-// pass! Make the test fail! Execute `rustlings hint tests2` for hints :)
-
+// Add parameters that add up to equal each other within the function 
 
 #[cfg(test)]
 mod tests {
