@@ -11,7 +11,7 @@ Examples of these lines include:
 - Make function public so it's within scope
 - Remove semicolon after function x, no ; needed for implicit return
 - Define macro before function 
-etc...
+- etc...
 
 If you compare the initial rustling exercise with my answer the comments I've made should help you solve it. Ideally :).
 
