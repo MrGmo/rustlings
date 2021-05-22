@@ -1,4 +1,4 @@
-// Declare variant in body of enum 
+// Declare variants in body of enum 
 
 #[derive(Debug)]
 enum Message {
